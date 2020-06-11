@@ -1,0 +1,2 @@
+# Store
+This challenge is about exploiting srand(time(NULL)). First, we set the clock ahead of the time for 2 minutes. Then, we ran the program store using gdb and got the 4th number. We waited for the time to come and put that number on the server.
