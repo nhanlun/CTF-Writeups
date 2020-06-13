@@ -1,0 +1,36 @@
+//registers: pc, ra, flag, sp
+Opcode is a BYTE, operands are BYTE
+
+0x5 m1 m2;	
+ra := data[m1] + data[m2];	//BOTH OPERAND IS BYTE
+
+0xa m1 m2
+ra := data[m1] - data[m2];	//BOTH OPERAND IS BYTE
+
+0xf m1 m2;
+ra := data[m1] * data[m2];	//BOTH OPERAND IS BYTE
+//IF OVERFLOW, ra TAKE THE LAST BYTE OF RESULT.
+
+0x1e m1 m2; //XOR
+ra := data[m1] ^ data[m2]; //BOTH OPERAND IS BYTE
+
+0x64 op;	//OPERAND IS BYTE
+if (ra == op), set flag to 1
+otherwise set flag to 0
+
+0x69 op;	//OPERAND IS BYTE
+if (ra == data[op]), set flag to 1
+otherwise set flag to 0
+
+0x96 op1 op2;	//BOTH OPERAND IS BYTE
+if (op1==1) set ra:=op2
+if (op1==2) set flag:=op2
+if (op1==3) set sp:=op2
+otherwise, do nothing.
+
+0xcd op;	//OPERAND IS WORD (2 BYTE)
+if (flag==0) set pc:=op;
+//Similar to je/jz in IA32
+
+0xff
+Halt the execution of vm
