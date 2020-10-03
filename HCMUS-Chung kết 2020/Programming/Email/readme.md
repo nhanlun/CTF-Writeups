@@ -1,4 +1,4 @@
-# Email
+# Email (100pts)
 
 Do as instructed in the requirement.  
 First decode the message, we get 'Secret numbers: 2, 4, 10, 13, 18, 20, 8, 1, 1, 8, 9, 10, 31, 11.'  

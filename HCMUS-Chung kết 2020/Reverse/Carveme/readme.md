@@ -1,4 +1,4 @@
-# Carveme
+# Carveme (228pts)
 
 First, we check the manifest file to see which activity is in this application, we see that only LoginActivity is in the android manifest file.  
 

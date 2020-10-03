@@ -1,4 +1,4 @@
-# SimpleBOF (50pt)
+# SimpleBOF (50pts)
 
 This goal of this problem is to override fp with address of success function and get the flag
 Open GDB to get the offset of the stack

@@ -1,4 +1,4 @@
-# CrackMe01 (133pt)
+# CrackMe01 (133pts)
 
 Open file with IDA, we notice that this file is not a binary written in C or C++
 

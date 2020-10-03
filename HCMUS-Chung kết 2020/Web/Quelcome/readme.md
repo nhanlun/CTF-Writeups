@@ -1,4 +1,4 @@
-# Quelcome
+# Quelcome (100pts)
 
 When trying to search for something, the web returns error with the link to http://159.65.13.76:65012/graphql.  
 So, we can query the schema of the graphql by concatenating ?query={__chema{types{name}}} to the link.  

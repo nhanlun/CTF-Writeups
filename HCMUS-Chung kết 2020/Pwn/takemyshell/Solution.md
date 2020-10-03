@@ -1,4 +1,4 @@
-# TakeMyShell(178pt)
+# TakeMyShell (178pts)
 
 Reading the source code of the program, we know that it allocate memory of 60 bytes then let user input into that section and execute it.
 

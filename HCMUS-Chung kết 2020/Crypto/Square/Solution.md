@@ -1,4 +1,4 @@
-# Square (100 pt)
+# Square (100pts)
 
 The problem requires us to find the square root of a in modulo p
 

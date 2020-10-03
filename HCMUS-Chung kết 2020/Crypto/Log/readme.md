@@ -1,4 +1,4 @@
-# Log
+# Log (58pts)
 
 After some searching, we found an online calculator to find x https://www.alpertron.com.ar/DILOG.HTM .
 

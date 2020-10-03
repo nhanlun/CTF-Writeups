@@ -1,4 +1,4 @@
-# Aliens
+# Aliens (50pts)
 
 Search google for the alphabets for alien and translate the image to get the flag.
 

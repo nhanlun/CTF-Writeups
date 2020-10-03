@@ -1,4 +1,4 @@
-#Hackme(100pt)
+# Hackme (100pts)
 
 Decompile the program with IDA, we get the following functions
 

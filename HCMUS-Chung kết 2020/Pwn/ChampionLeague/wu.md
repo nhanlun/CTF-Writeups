@@ -1,3 +1,5 @@
+# ChampionLeague (188pts)
+
 tldr: A basic "gets + static function address" buffer overflow with some simple check.
 
 First, we use gdb to observe that the address of each function is not changed between two executions. For example, <kick_off> is always at 0x08048570, <main> is always at 0x0804866f.

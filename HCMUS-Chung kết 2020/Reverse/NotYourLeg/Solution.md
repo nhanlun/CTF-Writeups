@@ -1,4 +1,4 @@
-# Notyourleg (122pt)
+# Notyourleg (122pts)
 This is an executable file compiled using ARM instructions
 Using IDA to decompile the file we get the main function
 ![](arm.png)

@@ -1,4 +1,4 @@
-# CrackMe02 (195pt)
+# CrackMe02 (195pts)
 Another Go program. Going to the main.main function, we get nothing. The main function just print "Nothing here" to the console.
 ![](main.png)
 

@@ -1,4 +1,4 @@
-# OooCooRoo (100pt)
+# OooCooRoo (100pts)
 
 First we use an OCR online tool to retrive all the values in the payloads. Our team use https://www.onlineocr.net/
 

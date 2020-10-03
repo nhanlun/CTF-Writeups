@@ -1,4 +1,4 @@
-# Arguments(128pt)
+# Arguments (128pts)
 Decompile the program, we get the important function show_me
 
 ![](disass.png)
